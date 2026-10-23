@@ -1,0 +1,151 @@
+/* Color scheme (W3Schools color names):
+   Orange - accents, DarkRed - header/footer, OldLace - page/content,
+   DarkSlateGray - text (charcoal) */
+
+body {
+  margin: 0;
+  padding: 1% 0;
+  background-color: Orange;
+  color: DarkSlateGray;
+  font-family: Verdana, Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Fluid wrapper: width is a percentage so it grows and shrinks with the browser */
+#wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background-color: OldLace;
+}
+
+header {
+  background-color: DarkRed;
+  color: OldLace;
+  text-align: center;
+  padding: 2% 0;
+}
+
+header h1 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 3em;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 0 Orange;
+}
+
+header p {
+  margin: 0;
+  font-style: italic;
+  color: Orange;
+}
+
+/* Nav: horizontal bar, four links each 25% wide */
+nav {
+  background-color: DarkOrange;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+}
+
+nav a {
+  display: block;
+  padding: 12px 0;
+  text-align: center;
+  color: DarkSlateGray;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: DarkRed;
+  color: OldLace;
+}
+
+main {
+  padding: 2% 3%;
+}
+
+main h2 {
+  color: DarkRed;
+}
+
+main a {
+  color: DarkRed;
+}
+
+#hero {
+  background-color: Orange;
+  text-align: center;
+  padding: 6% 5%;
+}
+
+#hero h2 {
+  color: DarkSlateGray;
+  margin-top: 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: DarkRed;
+  color: OldLace;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero .button {
+  color: OldLace;
+}
+
+.button:hover {
+  background-color: DarkSlateGray;
+}
+
+/* Three fluid columns for the popular items */
+.item {
+  float: left;
+  width: 29%;
+  margin: 0 2%;
+  text-align: center;
+}
+
+.photo {
+  background-color: Wheat;
+  padding: 25% 0;
+}
+
+/* Two fluid columns */
+.half {
+  float: left;
+  width: 46%;
+  margin: 0 2%;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  background-color: DarkRed;
+  color: OldLace;
+  text-align: center;
+  padding: 1% 0;
+  font-size: 0.85em;
+}
+
+footer p {
+  margin: 4px 0;
+}
+
+footer a {
+  color: Orange;
+}
