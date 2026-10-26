@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golden Hour Tacos | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="wrapper">
+
+    <header>
+      <h1>Golden Hour Tacos</h1>
+      <p>Fresh tacos, rolling your way</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="contact.html">About/Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Contact Us / Catering Request</h2>
+      <p>Want Golden Hour Tacos at your birthday, wedding or work party? Fill out the form and we will get back to you. You can also call (555) 555-5555.</p>
+
+      <form action="mailto:hello@goldenhourtacos.com" method="post" enctype="text/plain">
+        <fieldset>
+          <legend>Event Information</legend>
+
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+
+          <label for="date">Event Date</label>
+          <input type="date" id="date" name="date">
+
+          <label for="guests">Number of Guests</label>
+          <input type="number" id="guests" name="guests" min="1" max="500">
+
+          <label for="package">Catering Package</label>
+          <select id="package" name="package">
+            <option value="25">Small (25 guests)</option>
+            <option value="50">Medium (50 guests)</option>
+            <option value="100">Large (100 guests)</option>
+          </select>
+
+          <p>Preferred contact method:</p>
+          <input type="radio" id="byemail" name="contact" value="email" checked>
+          <label for="byemail" class="inline">Email</label>
+          <input type="radio" id="byphone" name="contact" value="phone">
+          <label for="byphone" class="inline">Phone</label>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5"></textarea>
+
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <p><a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+      <p>(555) 555-5555 | hello@goldenhourtacos.com</p>
+      <p>&copy; 2026 Golden Hour Tacos</p>
+    </footer>
+
+  </div>
+</body>
+</html>

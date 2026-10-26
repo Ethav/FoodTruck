@@ -149,3 +149,97 @@ footer p {
 footer a {
   color: Orange;
 }
+
+/* ---------- Image gallery (menu page) ---------- */
+.gallery {
+  float: left;
+  width: 29%;
+  margin: 0 2% 20px 2%;
+  border: 1px solid Tan;
+  background-color: Ivory;
+}
+
+.gallery:hover {
+  border-color: DarkRed;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery .desc {
+  padding: 10px;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+/* ---------- Contact form ---------- */
+fieldset {
+  border: 2px solid DarkRed;
+  padding: 3%;
+}
+
+legend {
+  color: DarkRed;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+label.inline {
+  display: inline;
+  margin: 0 15px 0 4px;
+  font-weight: normal;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid DarkSlateGray;
+  background-color: Ivory;
+  font-family: inherit;
+  font-size: 1em;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  background-color: LemonChiffon;
+  outline: 2px solid Orange;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  margin-top: 16px;
+  margin-right: 10px;
+  padding: 10px 24px;
+  background-color: DarkRed;
+  color: OldLace;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: DarkSlateGray;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: Orange;
+  color: DarkSlateGray;
+}
