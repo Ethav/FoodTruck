@@ -243,3 +243,26 @@ input[type="reset"]:hover {
   background-color: Orange;
   color: DarkSlateGray;
 }
+
+/* ---------- Bootstrap components: match the site colors ---------- */
+.accordion-button:not(.collapsed) {
+  background-color: Orange;
+  color: DarkSlateGray;
+}
+
+.accordion-button:focus {
+  border-color: DarkRed;
+  box-shadow: 0 0 0 0.2rem Orange;
+}
+
+.card-group {
+  margin: 1em 0;
+}
+
+.card {
+  border-color: Tan;
+}
+
+.card-title {
+  color: DarkRed;
+}
