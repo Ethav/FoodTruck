@@ -266,3 +266,63 @@ input[type="reset"]:hover {
 .card-title {
   color: DarkRed;
 }
+
+/* ---------- Final project additions ---------- */
+nav a.active {
+  background-color: DarkRed;
+  color: OldLace;
+}
+
+#hero img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+#hero p {
+  margin-bottom: 16px;
+}
+
+#hero .button {
+  margin: 4px;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-bottom: 1em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: Ivory;
+}
+
+th {
+  background-color: DarkRed;
+  color: OldLace;
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid Tan;
+}
+
+tr:nth-child(even) td {
+  background-color: OldLace;
+}
+
+.team img {
+  float: left;
+  width: 35%;
+  height: auto;
+  margin: 0 3% 10px 0;
+  border: 1px solid Tan;
+}
+
+main ul {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
